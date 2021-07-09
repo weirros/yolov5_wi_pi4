@@ -47,7 +47,7 @@ when you booted up successful，you can follow with steps below；
 **now you can try;**
 1. `python3.7 detect.py`
 usually you can see the running out；
-[![runing](https://img.alicdn.com/imgextra/i3/431374812/O1CN011lPwL2rsnalzmqQ_!!431374812.jpg "runing")](https://img.alicdn.com/imgextra/i3/431374812/O1CN011lPwL2rsnalzmqQ_!!431374812.jpg "runing")
+[![runing](https://github.com/weirros/yolov5_wi_pi4/blob/main/running.jpg "runing")](https://github.com/weirros/yolov5_wi_pi4/blob/main/running.jpg "runing")
 
 
 **but if you get some error ,like **
