@@ -72,9 +72,11 @@ you may need install this lib of system;
 9. ` sudo apt install libopenblas-dev libblas-dev m4 cmake cython python3-dev python3-yaml python3-setuptools`
 
 Thanks;
+
 https://blog.csdn.net/m0_46295742/article/details/112967918
 
 Torch1.7 Precompiled；
+
 https://download.csdn.net/download/m0_46295742/14933968
 
 We provide a configured OS mirror, please contact us with stars！
