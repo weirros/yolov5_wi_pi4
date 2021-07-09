@@ -1,11 +1,11 @@
-# Setup a YoloV5 on a pi 4
+# Setup a YoloV5 on a raspberry pi 4
 
 Get your os image from this site:
 https://www.raspberrypi.org/software/raspberry-pi-desktop/
 and flash it to a tf card;
 when you booted up successful，you can follow with steps below；
 
-
+Notice: With the 64-bit OS version, although our environment is configured correctly, we got the error 'illegal instruction' without running;
 ------------
 
 **update the system,and install some base package;**
@@ -27,6 +27,12 @@ when you booted up successful，you can follow with steps below；
 
 **update pip3 of the environment;**
 1. `python3 -m pip install --upgrade pip`
+
+By the way, pytorch has not provided an official compiled packages  of arm32 (arm64 only); you need to download both packages in release here;
+
+`wget https://github.com/weirros/yolov5_wi_pi4/releases/download/Torch1.7/torch-1.7.0a0-cp37-cp37m-linux_armv7l.whl`
+`wget https://github.com/weirros/yolov5_wi_pi4/releases/download/Torch1.7/torchvision-0.8.0a0+45f960c-cp37-cp37m-linux_armv7l.whl`
+··
 
 **install some package for  the environment;**
 **Do not use pip3 install -r requirements.txt,it leads errors;**
@@ -64,3 +70,9 @@ you may need install this lib of system;
 8. `sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y`
 9. ` sudo apt install libopenblas-dev libblas-dev m4 cmake cython python3-dev python3-yaml python3-setuptools`
 
+Thanks;
+https://blog.csdn.net/m0_46295742/article/details/112967918
+Torch1.7 Precompiled；
+https://download.csdn.net/download/m0_46295742/14933968
+
+We provide a configured OS mirror, please contact us with stars！
