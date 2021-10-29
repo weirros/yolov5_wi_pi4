@@ -1,4 +1,4 @@
-# Setup a YoloV5 on a raspberry pi 4
+# Setup YoloV5 on a raspberry pi 4
 
 Get your os image from this site:
 https://www.raspberrypi.org/software/raspberry-pi-desktop/
